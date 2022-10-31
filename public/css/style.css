@@ -1,0 +1,280 @@
+/* IMPORTS */
+@import url('reset.css');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1F6CA5;
+}
+.main-header{
+    width: 100%;
+    height: 140px;
+    background: #19517B;
+}
+.main-bar{
+    background: #fff;
+    height: 100px;
+}
+.main-logo{
+    width: 20%;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    text-align: center;
+}
+.main-logo img{
+    height: 80px;
+    margin: 10px;
+    vertical-align: middle;
+}
+.site-name{
+    width: 80%;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    font-size: 24px;
+}
+.main-menu{
+    height: 40px;
+}
+.main-menu ul li{
+    vertical-align: middle;
+    display: inline;
+    line-height: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.button-options{
+    margin: 30px;
+}
+button{
+    background: #19517B;
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    margin: 10px;
+}
+.dateTime{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+}
+.error-msg{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 50px auto;
+}
+.funcCode{
+    margin: 50px auto;
+    width: 50%;
+}
+.funcCode h1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.funcCode h2{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.funcCode input{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.funcCode input[type='submit']{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #19517B;
+}
+table{
+    width: 100%;
+}
+table tr th{
+    background: #19517B;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+}
+table tr td{
+    color: #fff;
+    border-bottom: 1px #ccc solid;
+    height: 30px;
+    line-height: 30px;
+}
+button, ul li{
+    cursor: pointer;
+}
+.login-sec{
+    width: 100%;
+    margin: 50px auto;
+}
+.login-box{
+    width: 40%;
+    padding: 20px;
+    height: auto;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.login-box form label{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login-box form input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 98%;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    padding: 5px;
+    border-radius: 5px;
+}
+.login-box form input[type='submit']{
+    width: 100px;
+    height: 30px;
+    background-color: #1F6CA5;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+}
+.clear{
+    clear: both !important;
+}
+.btn-new{
+    float: right;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px !important;
+}
+.table-users{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.table-users table td{
+    color: #000;
+    font-weight: bold;
+}
+.table-users button{
+    float: none;
+    width: 40%;
+}
+.alert-info-error{
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    bottom: 0px;
+    left: 30px;
+    height: 40px;
+    line-height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    margin: 0px auto;
+    background-color: rgb(197, 59, 59);
+    font-weight: bold;
+}
+
+.alert-info{
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    bottom: 0px;
+    left: 30px;
+    height: 40px;
+    line-height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    margin: 0px auto;
+    background-color: rgb(59, 197, 128);
+    font-weight: bold;
+}
+@media screen and (max-width: 800px){
+    .main-header{
+        width: 100%;
+        height: 100px;
+        background: #19517B;
+    }
+    .main-bar{
+        background: #fff;
+        height: 70px;
+    }
+    .main-logo{
+        width: 20%;
+        height: 70px;
+        float: left;
+        line-height: 70px;
+        text-align: center;
+    }
+    .main-logo img{
+        height: 50px;
+        margin: 10px;
+        vertical-align: middle;
+    }
+    .site-name{
+        width: 80%;
+        height: 70px;
+        float: left;
+        line-height: 70px;
+        font-size: 20px;
+    }
+    .main-menu{
+        height: 30px;
+    }
+    .main-menu ul li{
+        vertical-align: middle;
+        display: inline;
+        line-height: 30px;
+        margin-left: 30px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 14px;
+    }
+    .button-options{
+        margin: 30px;
+    }
+    button{
+        background: #19517B;
+        width: 300px;
+        height: 70px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        margin: 10px;
+    }
+}
